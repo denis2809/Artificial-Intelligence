@@ -95,7 +95,6 @@ header nav a {
 
 .main_banner {
 	background-color: #09111F;
-	height: 85vh;
 	padding: 50px 0 90px;
 }
 
@@ -147,9 +146,9 @@ header nav a {
 }
 
 .main_banner .img {
-	width: 632px;
-	position: absolute;
-	left: 718px;
+	max-width: 632px;
+	position: relative;
+	left: 114px;
 }
 
 .main_banner .box a {
