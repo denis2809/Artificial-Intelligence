@@ -76,6 +76,8 @@ header .btn {
 
 nav ul {
 	display: flex;
+	position: relative;
+	right: 90px
 }
 
 nav ul li {
