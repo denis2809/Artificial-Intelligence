@@ -151,7 +151,8 @@ header nav a {
 	left: 114px;
 }
 
-.main_banner .box a {
+.main_banner .box a:first-of-type {
+	margin-right: 20px;
 	padding: 15px 30px;
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
@@ -161,9 +162,29 @@ header nav a {
 	color: #FFFFFF;
 	background: #3A68B8;
 	border-radius: 5px;
-
 }
 
-.main_banner .box a:first-of-type {
-	margin-right: 20px;
+.main_banner .box a:last-of-type {
+	padding: 15px 30px 15px 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	color: #FFFFFF;
+	background: #3A68B8;
+	border-radius: 5px;
+}
+
+.main_banner .box a:last-of-type::before {
+	content: "";
+	display: inline-block;
+	background-image: url(../img/play.svg);
+	background-size: cover;
+	height: 27px;
+	width: 22px;
+	position: relative;
+	right: 10px;
+	top: 6px;
+
 }
